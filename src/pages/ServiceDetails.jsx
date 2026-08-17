@@ -2,14 +2,15 @@ import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, CheckCircle, Image as ImageIcon } from 'lucide-react';
 import { motion } from 'framer-motion';
+import flagImg2 from '../assets/flag/flag-2.jpg';
 
 // Mock data for services details
 const serviceDetailsData = {
   'flag-printing': {
     title: 'Custom Flag Printing',
-    description: 'High-quality custom flags for events, organizations, festivals, and promotional activities. We use durable materials and vibrant inks to ensure your flags stand out and last long.',
-    features: ['Event Flags', 'Organization Flags', 'Festival Flags', 'Sports Flags', 'Promotional Flags', 'Custom Logo Flags'],
-    img: 'https://images.unsplash.com/photo-1518707399486-6d702a84ff00?w=1000&auto=format&fit=crop',
+    description: 'High-quality custom flags for events, organizations, festivals, and promotional activities. We offer durable materials with vibrant colors that withstand outdoor elements.',
+    features: ['Event Flags', 'Company Flags', 'Political Flags', 'Sports Team Flags', 'Festival Flags', 'Feather & Teardrop Flags'],
+    img: flagImg2,
     price: 'Starting from $15.00'
   },
   'digital-frame-shop': {

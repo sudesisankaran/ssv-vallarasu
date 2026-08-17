@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Flag, Image as ImageIcon, Frame, Maximize, FileImage, CreditCard, Palette, Coffee, Square } from 'lucide-react';
 import { motion } from 'framer-motion';
+import flagImg1 from '../assets/flag/flag-1.jpg';
 
 const servicesData = [
   {
@@ -9,7 +10,7 @@ const servicesData = [
     title: 'Flag Printing',
     desc: 'Custom flags for events, organizations, festivals and promotional activities.',
     icon: <Flag size={24} />,
-    img: 'https://images.unsplash.com/photo-1518707399486-6d702a84ff00?w=500&auto=format&fit=crop',
+    img: flagImg1,
   },
   {
     id: 'digital-frame-shop',

@@ -1,6 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ExternalLink, Star } from 'lucide-react';
+import flagImg1 from '../assets/flag/flag-1.jpg';
+import flagImg2 from '../assets/flag/flag-2.jpg';
+import flagImg3 from '../assets/flag/flag-3.jpg';
 
 const worksData = [
   {
@@ -29,7 +32,7 @@ const worksData = [
     title: 'National Day Celebration',
     category: 'Festival Flag Printing',
     desc: 'Bulk order of 500+ high-quality fabric flags for city-wide celebrations.',
-    img: 'https://images.unsplash.com/photo-1518707399486-6d702a84ff00?w=800&auto=format&fit=crop'
+    img: flagImg1
   },
   {
     id: 5,
@@ -44,6 +47,20 @@ const worksData = [
     category: 'Vinyl Printing',
     desc: 'Full glass facade vinyl wrapping with custom die-cut logos and operating hours.',
     img: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&auto=format&fit=crop'
+  },
+  {
+    id: 7,
+    title: 'Company Identity Flags',
+    category: 'Corporate Flags',
+    desc: 'Premium double-sided flags with custom corporate logos for headquarters.',
+    img: flagImg2
+  },
+  {
+    id: 8,
+    title: 'Sports Team Championship',
+    category: 'Sports Flags',
+    desc: 'Large custom flags used by fans during the championship finale.',
+    img: flagImg3
   }
 ];
 

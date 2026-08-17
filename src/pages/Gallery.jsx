@@ -1,18 +1,22 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Search, X } from 'lucide-react';
+import flagImg1 from '../assets/flag/flag-1.jpg';
+import flagImg2 from '../assets/flag/flag-2.jpg';
+import flagImg3 from '../assets/flag/flag-3.jpg';
 
 // Mock gallery data
 const galleryItems = [
   { id: 1, title: 'Corporate Event Banner', category: 'Banners', img: 'https://images.unsplash.com/photo-1542385151-efd9000785a0?w=800&auto=format&fit=crop' },
-  { id: 2, title: 'Festival Celebration Flag', category: 'Flags', img: 'https://images.unsplash.com/photo-1518707399486-6d702a84ff00?w=800&auto=format&fit=crop' },
+  { id: 2, title: 'Festival Celebration Flag', category: 'Flags', img: flagImg1 },
   { id: 3, title: 'Premium Wooden Frame', category: 'Photo Frames', img: 'https://images.unsplash.com/photo-1549887552-cb1071d3e5ca?w=800&auto=format&fit=crop' },
   { id: 4, title: 'Matte Finish Business Card', category: 'Visiting Cards', img: 'https://images.unsplash.com/photo-1589041127168-9b1915731edc?w=800&auto=format&fit=crop' },
   { id: 5, title: 'Creative Vector Art', category: 'Digital Art', img: 'https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&auto=format&fit=crop' },
   { id: 6, title: 'Customized Logo Mug', category: 'Mug Printing', img: 'https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=800&auto=format&fit=crop' },
   { id: 7, title: 'Photo Printed Pillow', category: 'Pillow Printing', img: 'https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?w=800&auto=format&fit=crop' },
-  { id: 8, title: 'Birthday Party Banner', category: 'Banners', img: 'https://images.unsplash.com/photo-1530103862676-de8892b12a15?w=800&auto=format&fit=crop' },
-  { id: 9, title: 'Family Collage Frame', category: 'Photo Frames', img: 'https://images.unsplash.com/photo-1577083552431-6e5fd01988ec?w=800&auto=format&fit=crop' }
+  { id: 8, title: 'Company Promotional Flag', category: 'Flags', img: flagImg2 },
+  { id: 9, title: 'Family Collage Frame', category: 'Photo Frames', img: 'https://images.unsplash.com/photo-1577083552431-6e5fd01988ec?w=800&auto=format&fit=crop' },
+  { id: 10, title: 'Sports Team Flag', category: 'Flags', img: flagImg3 }
 ];
 
 const categories = ['All', 'Banners', 'Flags', 'Photo Frames', 'Visiting Cards', 'Digital Art', 'Mug Printing', 'Pillow Printing', 'Customized Products'];
