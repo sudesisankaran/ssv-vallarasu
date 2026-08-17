@@ -63,7 +63,7 @@ export function Contact() {
                 <div>
                   <h3 className="font-bold text-secondary text-lg mb-1">Call Us</h3>
                   <p className="text-gray-600 mb-2">Mon-Sat from 9am to 6pm.</p>
-                  <a href="tel:+12345678900" className="font-bold text-primary hover:underline">+1 234 567 8900</a>
+                  <a href="tel:+919360801346" className="font-bold text-primary hover:underline">+91 93608 01346</a>
                 </div>
               </div>
               
@@ -74,7 +74,7 @@ export function Contact() {
                 <div>
                   <h3 className="font-bold text-secondary text-lg mb-1">WhatsApp</h3>
                   <p className="text-gray-600 mb-2">Fastest way to get a quote.</p>
-                  <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" className="font-bold text-green-600 hover:underline">+1 234 567 8900</a>
+                  <a href="https://wa.me/919360801346" target="_blank" rel="noopener noreferrer" className="font-bold text-green-600 hover:underline">+91 93608 01346</a>
                 </div>
               </div>
               
@@ -174,7 +174,7 @@ export function Contact() {
                         value={formData.phone}
                         onChange={handleChange}
                         className="w-full px-4 py-3 rounded-xl bg-gray-50 border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all"
-                        placeholder="+1 234 567 8900"
+                        placeholder="+91 93608 01346"
                       />
                     </div>
                     <div className="space-y-2">

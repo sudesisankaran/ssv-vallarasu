@@ -7,7 +7,7 @@ export function FloatingWhatsApp({ serviceName = '' }) {
   const serviceMessage = `Hi SSV, I am interested in ${serviceName}. Please share the details and pricing.`;
   
   const message = serviceName ? serviceMessage : defaultMessage;
-  const phoneNumber = "1234567890"; // Easy to configure later
+  const phoneNumber = "919360801346"; // Easy to configure later
   
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
